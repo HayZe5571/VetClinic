@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Class Headers">
+      <UniqueIdentifier>{d3a63497-278b-4342-a6d9-c1d4f43ad9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Descriptions">
+      <UniqueIdentifier>{368f2815-68e0-4c36-adf6-f707ab0f4aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Descriptions\Animals">
+      <UniqueIdentifier>{9b858af2-c2f6-4ed7-b57c-8af84b596250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Descriptions\People">
+      <UniqueIdentifier>{308b21b3-290b-4cae-b22a-6694cf7ed232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Descriptions\Appointment">
+      <UniqueIdentifier>{5343eb7d-f62b-4af9-bcc8-69a52440ee39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespace Headers">
+      <UniqueIdentifier>{04300acb-677a-46f6-8450-e1681296788b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Namespaсe Discriptions">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{287c0972-b171-470d-85bb-a4bd26526ab0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyIncludes.h">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animals.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="People.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Appointment.h">
+      <Filter>Class Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Namespace Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthorizationManager.h">
+      <Filter>Namespace Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Namespace Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordManager.h">
+      <Filter>Namespace Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainСore.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Class Descriptions\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Class Descriptions\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Mammal.cpp">
+      <Filter>Class Descriptions\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Reptile.cpp">
+      <Filter>Class Descriptions\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Class Descriptions\People</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Class Descriptions\People</Filter>
+    </ClCompile>
+    <ClCompile Include="Veterinarian.cpp">
+      <Filter>Class Descriptions\People</Filter>
+    </ClCompile>
+    <ClCompile Include="Appointment.cpp">
+      <Filter>Class Descriptions\Appointment</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Namespaсe Discriptions</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthorizationManager.cpp">
+      <Filter>Namespaсe Discriptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Namespaсe Discriptions</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordManager.cpp">
+      <Filter>Namespaсe Discriptions</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\animals.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="data\veterinarians.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="data\clients.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="data\appointments.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
